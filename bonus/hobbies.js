@@ -10,5 +10,5 @@ function givesHobbiesArr(hobbyOne, hobbyTwo, hobbyThree) {
   return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
-//export the function with commonjs rules
-module.exports = givesHobbiesArr;
+//export the function with ES6 modules
+export default givesHobbiesArr;

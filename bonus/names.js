@@ -12,5 +12,5 @@ function givesFullNameObj(firstName, lastName) {
   };
 }
 
-//export the function with commonjs rules
-module.exports = givesFullNameObj;
+//export the function with ES6 modules
+export default givesFullNameObj;

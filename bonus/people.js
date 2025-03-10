@@ -1,6 +1,6 @@
-//import functions from names.js and hobbies.js files
-const fullNameFunction = require('./names.js');
-const hobbiesFunction = require('./hobbies.js');
+//import functions from names.js and hobbies.js files using ES6 modules
+import fullNameFunction from "./names.js";
+import hobbiesFunction from "./hobbies.js";
 
 /**
  * Return an object containing person fullName and hobbies

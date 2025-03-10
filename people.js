@@ -1,4 +1,4 @@
-//import functions from names.js and hobbies.js files
+//import functions from names.js and hobbies.js files with commonjs rules
 const fullNameFunction = require('./names.js');
 const hobbiesFunction = require('./hobbies.js');
 
